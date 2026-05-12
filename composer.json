@@ -1,0 +1,44 @@
+{
+    "name": "nostriphant/peony",
+    "description": "Blossom implementation for shared web servers",
+    "type": "project",
+    "homepage" : "https://github.com/nostriphant/blossom",
+    "require": {
+        "php": "^8.4",
+        "nostriphant/blossom": "^0.5.5",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "nostriphant\\Peony\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "nostriphant\\PeonyTest\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rik Meijer",
+            "email": "rik@nostriphant.dev"
+        }
+    ],
+    "require-dev": {
+        "ext-curl": "*",
+        "pestphp/pest": "^4.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": [
+            "rm -rf ./data/files/*",
+            "./vendor/bin/pest"
+        ]
+    }
+}
