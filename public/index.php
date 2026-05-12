@@ -8,7 +8,7 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     
     $blossom = new \nostriphant\Blossom\Blossom($server_key, $_ENV['BLOSSOM_DATA_DIRECTORY'], $_ENV['BLOSSOM_SERVER_URL'], new \nostriphant\Blossom\UploadConstraints(
             explode(',', $_ENV['BLOSSOM_ALLOWED_PUBKEYS']),
-            $_ENV['MAX_CONTENT_LENGTH'],
+            $_ENV['MAX_CONTENT_LENGTH'] ?? null,
             ['video/x-msvideo', 'audio/*']
     ));
     

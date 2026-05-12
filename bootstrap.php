@@ -16,5 +16,5 @@ function destroy_data_directory() {
 }
 
 
-$dotenv = Dotenv\Dotenv::createMutable(__DIR__);
+$dotenv = \Dotenv\Dotenv::createMutable(__DIR__);
 $dotenv->safeLoad();
