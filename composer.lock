@@ -261,21 +261,22 @@
         },
         {
             "name": "nostriphant/secp256k1",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nostriphant/php-secp256k1.git",
-                "reference": "5eb3bc79a89e9c17fb5b7e3b6aaa9921e69c1b84"
+                "reference": "49ca2c0550850759520b6d682e3a9b1a4dc9d6bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nostriphant/php-secp256k1/zipball/5eb3bc79a89e9c17fb5b7e3b6aaa9921e69c1b84",
-                "reference": "5eb3bc79a89e9c17fb5b7e3b6aaa9921e69c1b84",
+                "url": "https://api.github.com/repos/nostriphant/php-secp256k1/zipball/49ca2c0550850759520b6d682e3a9b1a4dc9d6bc",
+                "reference": "49ca2c0550850759520b6d682e3a9b1a4dc9d6bc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.4",
-                "simplito/elliptic-php": "^1.0"
+                "simplito/elliptic-php": "^1.0",
+                "starkbank/ecdsa": "^2.2"
             },
             "require-dev": {
                 "pestphp/pest": "^2.35"
@@ -302,9 +303,9 @@
             "description": "Wrapper around 1ma/secp256k1-nostr extension, falls back to simplito/elliptic (pure PHP implementation) when the extension is not available",
             "support": {
                 "issues": "https://github.com/nostriphant/php-secp256k1/issues",
-                "source": "https://github.com/nostriphant/php-secp256k1/tree/0.1.2"
+                "source": "https://github.com/nostriphant/php-secp256k1/tree/0.1.3"
             },
-            "time": "2026-05-05T08:40:03+00:00"
+            "time": "2026-05-13T09:37:26+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -527,6 +528,56 @@
                 "source": "https://github.com/simplito/elliptic-php/tree/1.0.12"
             },
             "time": "2024-01-09T14:57:04+00:00"
+        },
+        {
+            "name": "starkbank/ecdsa",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/starkbank/ecdsa-php.git",
+                "reference": "82acd46a8e0c3b04b1eb0976e7108f7b43483220"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/starkbank/ecdsa-php/zipball/82acd46a8e0c3b04b1eb0976e7108f7b43483220",
+                "reference": "82acd46a8e0c3b04b1eb0976e7108f7b43483220",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/ellipticcurve.php"
+                ],
+                "psr-4": {
+                    "EllipticCurve\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "StarkBank",
+                    "email": "developers@starkbank.com",
+                    "homepage": "https://starkbank.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "fast openSSL-compatible implementation of the Elliptic Curve Digital Signature Algorithm (ECDSA)",
+            "homepage": "https://github.com/starkbank/ecdsa-php",
+            "support": {
+                "issues": "https://github.com/starkbank/ecdsa-php/issues",
+                "source": "https://github.com/starkbank/ecdsa-php/tree/v2.2.1"
+            },
+            "time": "2026-05-05T21:56:28+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
