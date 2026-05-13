@@ -5,7 +5,7 @@
     "homepage" : "https://github.com/nostriphant/blossom",
     "require": {
         "php": "^8.4",
-        "nostriphant/blossom": "^0.5.5",
+        "nostriphant/blossom": "^0.6",
         "vlucas/phpdotenv": "^5.6",
         "nikic/fast-route": "^1.3"
     },

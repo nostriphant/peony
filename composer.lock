@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e312ba5551ce5f7563b82f91a8cd864b",
+    "content-hash": "c666ee07fec32aaf07ecd46fcb8bd265",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -120,16 +120,16 @@
         },
         {
             "name": "nostriphant/blossom",
-            "version": "0.5.5",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nostriphant/blossom.git",
-                "reference": "ea1b40d1a8ff9d533f59f504f457fa5ce53d5f76"
+                "reference": "1ca1a4e6840ad6eb8524395188c9c996ec67b52a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nostriphant/blossom/zipball/ea1b40d1a8ff9d533f59f504f457fa5ce53d5f76",
-                "reference": "ea1b40d1a8ff9d533f59f504f457fa5ce53d5f76",
+                "url": "https://api.github.com/repos/nostriphant/blossom/zipball/1ca1a4e6840ad6eb8524395188c9c996ec67b52a",
+                "reference": "1ca1a4e6840ad6eb8524395188c9c996ec67b52a",
                 "shasum": ""
             },
             "require": {
@@ -166,9 +166,9 @@
             "homepage": "https://github.com/nostriphant/blossom",
             "support": {
                 "issues": "https://github.com/nostriphant/blossom/issues",
-                "source": "https://github.com/nostriphant/blossom/tree/0.5.5"
+                "source": "https://github.com/nostriphant/blossom/tree/0.6.0"
             },
-            "time": "2026-02-27T08:17:59+00:00"
+            "time": "2026-05-13T14:37:09+00:00"
         },
         {
             "name": "nostriphant/functional",
