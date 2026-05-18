@@ -46,7 +46,7 @@ switch ($routeInfo[0]) {
         
         error_log('Found');
         $input = fopen('php://input', 'rb');
-        $response = $routeInfo[1](new \nostriphant\Blossom\HTTP\ServerRequest($headers, $routeInfo[2], $input));
+        $response = $routeInfo[1](new \nostriphant\Blossom\HTTP\ServerRequest($headers, rray_merge($_GET, $routeInfo[2]), $input));
         
         error_log(var_export(array_diff_key($response, ['body' => null]), true));
         header('HTTP/1.1 ' . $response['status'], true);
