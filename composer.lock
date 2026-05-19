@@ -120,16 +120,16 @@
         },
         {
             "name": "nostriphant/blossom",
-            "version": "0.7.3",
+            "version": "0.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nostriphant/blossom.git",
-                "reference": "9e4c58c84550156384346598ba6908bb70ff0f36"
+                "reference": "c12129223271de3dbc6c31b4c2c2e4b1df801cb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nostriphant/blossom/zipball/9e4c58c84550156384346598ba6908bb70ff0f36",
-                "reference": "9e4c58c84550156384346598ba6908bb70ff0f36",
+                "url": "https://api.github.com/repos/nostriphant/blossom/zipball/c12129223271de3dbc6c31b4c2c2e4b1df801cb0",
+                "reference": "c12129223271de3dbc6c31b4c2c2e4b1df801cb0",
                 "shasum": ""
             },
             "require": {
@@ -168,9 +168,9 @@
             "homepage": "https://github.com/nostriphant/blossom",
             "support": {
                 "issues": "https://github.com/nostriphant/blossom/issues",
-                "source": "https://github.com/nostriphant/blossom/tree/0.7.3"
+                "source": "https://github.com/nostriphant/blossom/tree/0.7.4"
             },
-            "time": "2026-05-18T13:35:04+00:00"
+            "time": "2026-05-19T07:39:25+00:00"
         },
         {
             "name": "nostriphant/functional",
